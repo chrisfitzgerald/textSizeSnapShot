@@ -1,13 +1,13 @@
 
 ---
-title: Dataset Visualization and Analysis
+--Text Size SnapShot--
 ---
 
 # Dual-Axis Chart Analysis
 
 For this dataset:
 
-- We can use a area chart of heatmap for the total "Text Size" for each binned range.
+- We can use a bar chart for the total "Text Size" for each binned range.
 - Overlay a line chart for the number of documents in each binned range.
 
 By using a dual-axis chart, we can clearly see the relationship between the number of documents and the total text size for each size range.
