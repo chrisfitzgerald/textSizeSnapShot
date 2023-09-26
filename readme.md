@@ -1,4 +1,4 @@
-#Text Size SnapShot
+# Text Size SnapShot
 
 ## Dual-Axis Chart Analysis
 
