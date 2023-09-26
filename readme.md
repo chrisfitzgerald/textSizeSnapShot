@@ -1,9 +1,6 @@
+#Text Size SnapShot
 
----
---Text Size SnapShot--
----
-
-# Dual-Axis Chart Analysis
+## Dual-Axis Chart Analysis
 
 For this dataset:
 
