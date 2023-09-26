@@ -11,7 +11,7 @@ def generate_text_size():
     ]
 
     # Define probabilities for each size range (adjust as needed)
-    probabilities = [0.6, 0.3, 0.1]
+    probabilities = [0.8, 0.15, 0.05]
 
     # Choose a size range based on probabilities
     selected_range = random.choices(size_ranges, probabilities)[0]
