@@ -22,6 +22,7 @@ Here's the dual-axis chart visualizing the comparison:
 
 - The blue bars represent the total "Text Size" for each binned range.
 - The red line represents the number of documents in each binned range.
+![areaChart-100k-docs](https://github.com/chrisfitzgerald/textSizeSnapShot/assets/7998683/dcaafbe1-4ee6-46cd-b322-b7f585ec5612)
 
 ## Key Observations
 
