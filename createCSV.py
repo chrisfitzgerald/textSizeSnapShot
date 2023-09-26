@@ -7,11 +7,11 @@ def generate_text_size():
     size_ranges = [
         (0.01, 1000),       # Small size range (most common)
         (1001, 30000),     # Medium size range (less common)
-        (30001, 5000000),  # Large size range (least common)
+        (30001, 2000000),  # Large size range (least common)
     ]
 
     # Define probabilities for each size range (adjust as needed)
-    probabilities = [0.8, 0.15, 0.05]
+    probabilities = [0.9, 0.08, 0.02]
 
     # Choose a size range based on probabilities
     selected_range = random.choices(size_ranges, probabilities)[0]
@@ -66,7 +66,7 @@ csv_file = "documents_dataset.csv"
 # Write the data to the CSV file
 with open(csv_file, mode='w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["Document ID", "Text Size", "Size Classification (Range)", "Size Classification (Thirds)", "File Type"])  # Write header row
+    writer.writerow(["document_ID", "text_size", "Size Classification (Range)", "Size Classification (Thirds)", "File Type"])  # Write header row
     writer.writerows(data)
 
 print(f"Dataset with {num_records} documents saved as {csv_file}")

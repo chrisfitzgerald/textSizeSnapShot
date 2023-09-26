@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load your CSV file into a DataFrame
-df = pd.read_csv('documents_dataset.csv')
+df = pd.read_csv('documents_dataset2.csv')
 
 # Assuming 'text_size' is the column of interest from your dataset
 bins = [0, 100, 500, 1000, 5000, 10000, 50000, 100000, 500000, 1000000, float('inf')]
