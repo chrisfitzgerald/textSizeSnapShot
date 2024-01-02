@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # Load your CSV file into a DataFrame
 df = pd.read_csv('documents_dataset2.csv')
 
-# Assuming 'text_size' is the column of interest from your dataset
+# Static bin sizes and labels
 bins = [0, 100, 500, 1000, 5000, 10000, 50000, 100000, 500000, 1000000, float('inf')]
 labels = ['0-100', '101-500', '501-1k', '1k-5k', '5k-10k', '10k-50k', '50k-100k', '100k-500k', '500k-1M', '1M+']
 df['size_range'] = pd.cut(df['text_size'], bins=bins, labels=labels)
